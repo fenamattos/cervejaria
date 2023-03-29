@@ -1,0 +1,26 @@
+{
+  "name": "api-bebidas",
+  "version": "1.0.0",
+  "description": "Uma API para loja debebidas",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "API",
+    "Node",
+    "Express"
+  ],
+  "author": "Lucas",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "pg": "^8.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
